@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title> Bayer - Tus remedios naturales</title>
+        <link rel="stylesheet" href="css/bayer.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Allerta" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Header -->
+        <!-- Portada -->
+        <section class="portada background" id="portada">
+            <header class="contenedor header" id="header"> 
+                <!-- Logotipo -->
+                <figure class="logotipo">
+                    <img src="img/logotipo.png" width="120" height="60" alt="Bayer logotipo">
+                </figure>   
+                <!-- Menú -->
+                <nav class="menu">
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="#plantas">Plantas Medicinales</a>
+                        </li>
+                        <li>
+                            <a href="precios.html">Precios</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="contenedor">
+                <!-- Título -->
+                <h1 class="titulo">Plantas Bayer</h1>
+                <!-- Resumen -->
+                <h3 class="subtitle-a">Tu remedio confiable siempre efectivo y al mejor precio</h3>
+                <!-- Botón -->
+                <a href="#plantas" class="btn">Conoce más</a>
+            </div>
+        </section>
+        <!-- Plantas Medicinales -->
+        <section class="contenedor plantas" id="plantas">
+            <!-- titulo -->
+            <h2>Nuestras Plantas Medicinales</h2>
+            <!-- Planta1 -->
+            <article class="planta">
+                <img src="img/ajo.png"  width="350" height="350" alt="Ajo">
+                <div class="contenedor-planta">
+                    <h3 class="subtitle-b">Ajo</h3>
+                    <ol>
+                        <li>Se planta casi en cualquier época</li>
+                        <li>Antioxidante</li>
+                        <li>Antibiótico</li>
+                    </ol>
+                </div>
+            </article>
+            <!-- Planta2 -->
+            <article class="planta">
+                <img src="img/ajenjo.png" width="350" height="350" alt="Ajenjo">
+                <div class="contenedor-planta">
+                    <h3 class="subtitle-b">Ajenjo</h3>
+                    <ol>
+                        <li>Se adapta a los suelos pobres</li>
+                        <li>Repelente de insectos</li>
+                        <li>Combate los dolores menstruales</li>
+                        <li>Sirve para eludir problemas de hígado</li>
+                    </ol>    
+                </div>
+            </article>
+        </section>
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="contenedor">
+                <div class="contacto">
+                    <img src="img/logotipo.png" width="220" height="150"alt="logotipo">
+                    <a href="tel:+51952199662">
+                        <strong>Teléfono</strong> 
+                        <span>952199662</span>
+                    </a>
+                    <a href="mailto:contacto@bayer.com">
+                        <strong>Email</strong>
+                        <span>contacto@bayer.com</span>
+                    </a>
+                </div>
+                <form class="formulario" action="">
+                    <div class="col1">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" required placeholder="Tu nombre" id="nombre">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" required placeholder="Tu correo electrónico" id="email">
+                        <div class="sexo">
+                            <label for="mujer">
+                                <input type="radio" checked name="sexo" id="mujer" value="mujer">Mujer
+                            </label>
+        
+                            <label for="hombre">
+                                <input type="radio" name="sexo" id="hombre" value="hombre">Hombre
+                            </label>
+                        </div>
+                        <div class="intereses">
+                            <label for="cot">
+                                <input type="checkbox" checked name="intereses" id="cot" value="cotizacion"> Cotización 
+                            </label>
+    
+                            <label for="reclamos">
+                                <input type="checkbox" name="intereses" id="reclamos" value="reclamos"> Reclamos
+                             </label>
+        
+                            <label for="comentarios">
+                                <input type="checkbox" name="intereses" id="comentarios" value="comentarios"> Comentarios
+                            </label>
+        
+                            <label for="otros">
+                                <input type="checkbox" name="intereses" id="otros" value="otros"> Otros
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col2">
+                        <label for="comentarios">Comentarios</label>
+                        <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+                        <input class="btn" type="submit" value="Enviar" name="" id="">
+                    </div>
+                </form>
+            </div>
+        </footer>
+    </body>
+</html>

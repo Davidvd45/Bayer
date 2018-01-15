@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Precios de tus mejores medicinas naturales! </title>
+    <link rel="stylesheet" href="css/bayer.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Allerta" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header background" id="header">
+        <div class="contenedor">
+            <!-- Logotipo -->
+            <figure class="logotipo">
+                <img src="img/logotipo.png" width="60" height="60" alt=" Bayer logotipo">
+            </figure>
+            <!-- Menú -->
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="index.html#plantas">Plantas Medicinales</a>
+                    </li>
+                    <li>
+                        <a href="precios.html">Precios</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="contenedor">
+        <section class="tabla">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Planta</th>
+                        <th>Precio</th>
+                        <th>Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ajenjo</td>
+                        <td>$100k</td>
+                        <td>Una planta medicinal</td>
+                    </tr>
+                    <tr>
+                        <td>Ajo</td>
+                        <td>$200k</td>
+                        <td>Una planta medicinal</td>
+                    </tr>
+                    <tr>
+                        <td>Ruda</td>
+                        <td>$50k</td>
+                        <td>Una planta medicinal</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="contacto">
+                <img src="img/logotipo.png" width="220" height="150" alt="logotipo">
+                <a href="tel:+51952199662">
+                    <strong>Teléfono</strong>
+                    <span>952199662</span>
+                </a>
+                <a href="mailto:contacto@bayer.com">
+                    <strong>Email</strong>
+                    <span>contacto@bayer.com</span>
+                </a>
+            </div>
+            <form class="formulario" action="">
+                <div class="col1">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" required placeholder="Coloca tu nombre" id="nombre">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" required placeholder="Coloca tu Correo Electrónico" id="email">
+                    <div class="sexo">
+                        <label for="mujer">
+                            <input type="radio" checked name="sexo" id="mujer" value="mujer">Mujer
+                        </label>
+    
+                        <label for="hombre">
+                            <input type="radio" name="sexo" id="hombre" value="hombre">Hombre
+                        </label>
+                    </div>
+                    <div class="intereses">
+                        <label for="cot">
+                            <input type="checkbox" checked name="intereses" id="cot" value="cotizacion"> Cotización
+                        </label>
+    
+                        <label for="reclamos">
+                            <input type="checkbox" name="intereses" id="reclamos" value="reclamos"> Reclamos
+                        </label>
+    
+                        <label for="comentarios">
+                            <input type="checkbox" name="intereses" id="comentarios" value="comentarios"> Comentarios
+                        </label>
+    
+                        <label for="otros">
+                            <input type="checkbox" name="intereses" id="otros" value="otros"> Otros
+                        </label>
+                    </div>
+                </div>
+                <div class="col2">
+                    <label for="comentarios">Comentarios</label>
+                    <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+                    <input class="btn" type="submit" value="Enviar" name="" id="">
+                </div>
+            </form>
+        </div>
+    </footer>
+    </body>
